@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(105, 105, 105, 0.534);
+    max-width: 100%;
+    padding: 20px 30px;
+}
+
+.columna-izq-header{
+    max-width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columna-ctr-header{
+    min-width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 180px;
+}
+
+.nombre-pagina{
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.columna-drh-header{
+    min-width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-ingreso{
+    font-size: 17px;
+    padding-right: 30px;
+}
+
+.botones-ingreso:hover{
+    color:rgb(207, 207, 207);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.seccion-pagina-inicio{
+    min-height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg,rgb(46, 46, 46),rgb(255, 255, 255));
+}
+
+.boton-seccion-inicio{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg,rgb(138, 137, 137),rgb(82, 75, 75));
+    margin: 30px;
+    color:black
+}
+
+.boton-seccion-inicio:hover{
+    color:rgb(207, 207, 207);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(105, 105, 105, 0.534);
+    max-width: 100%;
+    padding: 20px 30px;
+}
+
+.columna-izq-footer{
+    max-width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columna-ctr-footer{
+    min-width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna-drh-footer{
+    min-width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
