@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(27deg,#796c6c,#8ac4ba)
+}
+
+.contenedor-login{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin:10px;
+    border:solid 1px rgb(255, 255, 255);
+}
+
+.contenedor-login h1{
+    text-align: center;
+    margin:80px;
+}
+
+.contenedor-login input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    border-radius: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contenedor-login input[type="password"]{
+    margin-top:20px;
+}
+
+::placeholder{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contenedor-login button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 75%;
+    border-radius: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+    outline:none;
+    background-color:#cacaca;
+    border:1px solid rgb(255, 255, 255);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+
+.contenedor-login button:hover{
+    color:rgb(255, 255, 255)
+}
+
+
+
